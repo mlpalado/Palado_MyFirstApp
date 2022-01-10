@@ -2,5 +2,7 @@
     <string name="app_name">Palado_MyFirstApp</string>
     <string name="helloWorld">Hello TVL - ICT!</string>
     <string name="awitLods">Oniichan</string>
+    <string name="HelloPapa">Click Me!</string>
+
 
 </resources>

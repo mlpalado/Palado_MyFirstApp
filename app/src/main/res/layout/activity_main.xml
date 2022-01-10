@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/HelloTVL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/helloWorld"
@@ -17,25 +17,39 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.181" />
+        app:layout_constraintVertical_bias="0.195" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="339dp"
         android:layout_height="610dp"
-        app:srcCompat="@drawable/hakdog"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="105dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/hakdog" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
         android:text="@string/awitLods"
         android:textSize="10pt"
-        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/HelloTVL"
+        app:layout_constraintEnd_toEndOf="@+id/HelloTVL"
         app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        tools:layout_editor_absoluteY="80dp" />
+        app:layout_constraintStart_toStartOf="@+id/HelloTVL" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="@string/HelloPapa"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
