@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#77B306BF"
     tools:context=".MainActivity">
 
     <TextView
@@ -28,7 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.495"
-        app:srcCompat="@drawable/hakdog" />
+        app:srcCompat="@drawable/hakdog"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textView"
@@ -48,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
         android:text="@string/HelloPapa"
+        android:textColor="#E1BEE7"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
